@@ -1,5 +1,6 @@
 #!/usr/bin/env perl
 
+$out_dir = 'build';
 $pdf_mode = 3;
 $latex = 'uplatex -kanji=utf8 -synctex=1 -file-line-error -halt-on-error -interaction=nonstopmode %O %S';
 $bibtex = 'upbibtex %O %B';
